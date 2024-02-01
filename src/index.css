@@ -1,8 +1,72 @@
-body{
+
+
+body {
   background-image: url(./Assets/Images/Background.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
   padding: 0;
+}
+
+.Nav-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+}
+
+.Nav-bg:hover {
+  background-color: #ffffff; /* Background color on hover */
+  color: #000000; /* Text color on hover */
+}
+
+#nav-dropdown {
+  color: #ffffff; /* Set the default text color */
+  transition: color 0.3s; /* Add a smooth transition effect */
+  
+}
+
+#nav-dropdown:hover {
+  color: #000000 !important; 
+}
+
+.Logo {
+  margin-left: -60%;
+}
+
+
+
+
+.transparent-bg {
+  height: fit-content;
+  width: 23%;
+  margin-top: 7%;
+  margin-left: 4%;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.title {
+  text-decoration: none;
+  position: relative;
+  
+}
+
+
+.title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 32%;
+  width: 37%;
+  height: 2px;
+  background-color: #37e437; /* Set the color of the underline */
+  display: block;
+  margin-top: 14px; /* Adjust the space between the text and the underline */
+}
+.card-button{
+  margin-left: 28%;
+  margin-bottom: 5%;
+}
+.nano{
+  margin-left: 86%;
+  margin-top: 8%;
 }
