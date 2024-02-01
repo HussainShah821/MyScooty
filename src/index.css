@@ -1,0 +1,8 @@
+body{
+  background-image: url(./Assets/Images/Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
