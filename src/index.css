@@ -14,10 +14,7 @@ body {
   transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
 }
 
-.Nav-bg:hover {
-  background-color: #ffffff; /* Background color on hover */
-  color: #000000; /* Text color on hover */
-}
+
 
 #nav-dropdown {
   color: #ffffff; /* Set the default text color */
@@ -26,7 +23,8 @@ body {
 }
 
 #nav-dropdown:hover {
-  color: #000000 !important; 
+ text-decoration: underline greenyellow;
+ text-underline-offset: 37px;
 }
 
 .Logo {

@@ -36,14 +36,8 @@ function MyNavbar() {
           </Nav>
           <Nav>
             <Nav.Link href="#Phone">
-              <InputGroup>
-                <InputGroup.Text>
-                  <Telephone />
-                </InputGroup.Text>
-                <FloatingLabel controlId="floatingInputGrid" label="09 53 60 47 57">
-                  <Form.Control type="tel" placeholder="Enter your phone number" />
-                </FloatingLabel>
-              </InputGroup>
+            <Button variant="light" className='mt-2 p-2'><Telephone />   09 53 60 47 57</Button>{' '}
+
             </Nav.Link>
             <Nav.Link eventKey={2} href="reserve">
               <Button variant="primary" className='my-2'>
