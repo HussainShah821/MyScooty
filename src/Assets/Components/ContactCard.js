@@ -20,6 +20,7 @@ function Contact() {
       </Card.Body>
     </Card>
 <h5 className='text-white nano'>Nano 300 Watts</h5>
+
 </>
   );
 }
