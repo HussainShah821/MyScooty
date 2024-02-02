@@ -13,12 +13,13 @@ function Contact() {
         sera utile pour tous types d’usage personnel comme professionnel. <br></br><br></br>Fini le stress 
         des transports ou les pleins d’essence, avec votre Dolce Vita circuler librement et sans contrainte !
         </Card.Text>
-        <Button variant="primary" className='text-center card-button'>Réserver un essai</Button>
+        <Button variant="primary" className='text-center card-button' onClick={(clickme())}>Réserver un essai</Button>
         <Card.Text className='text-white text-center'>
         Voir les caractéristiques
         </Card.Text>
       </Card.Body>
     </Card>
+   
 <h5 className='text-white nano'>Nano 300 Watts</h5>
 </>
   );
