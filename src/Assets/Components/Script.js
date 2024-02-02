@@ -1,3 +1,3 @@
-function clickme{
+function clickme(){
     alert("you cicked me!");
 }
