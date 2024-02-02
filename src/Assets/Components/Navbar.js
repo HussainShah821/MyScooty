@@ -36,12 +36,12 @@ function MyNavbar() {
           </Nav>
           <Nav>
             <Nav.Link href="#Phone">
-            <Button variant="light" className='mt-2 p-2'><Telephone />   09 53 60 47 57</Button>{' '}
+            <Button className=' phone-button '><Telephone />   09 53 60 47 57</Button>{' '}
 
             </Nav.Link>
             <Nav.Link eventKey={2} href="reserve">
-              <Button variant="primary" className='my-2'>
-                <img src={calendar} className="w-50 px-3" alt='calendar' />Réserver
+              <Button variant="primary" className=' bookbutton'>
+                <img src={calendar} className=" px-3" alt='calendar' />Réserver
               </Button>
             </Nav.Link>
           </Nav>

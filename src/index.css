@@ -35,11 +35,12 @@ body {
 
 
 .transparent-bg {
-  height: fit-content;
+  height: 450px !important;
   width: 23%;
-  margin-top: 7%;
+  margin-top: 6%;
   margin-left: 4%;
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  border: none;
 }
 
 .title {
@@ -47,7 +48,9 @@ body {
   position: relative;
   
 }
-
+.form-control{
+  color: #ffffff !important;
+}
 
 .title::after {
   content: '';
@@ -61,10 +64,43 @@ body {
   margin-top: 14px; /* Adjust the space between the text and the underline */
 }
 .card-button{
-  margin-left: 28%;
+  margin-left: 95px ;
+  
   margin-bottom: 5%;
 }
 .nano{
   margin-left: 86%;
-  margin-top: 8%;
+  margin-top: 4%;
+}
+textarea.form-control{
+  background-color: rgba(0,0,0,0.5);
+  border: none  ;
+  
+}
+.inputlabels{
+  background-color: rgba(0,0,0,0.0) !important;
+  border: none  !important;
+  border-bottom: #ffffff solid 0.2px !important;
+}
+.inputlabels::placeholder{
+  
+  color:white !important;
+}
+.textarea::placeholder{
+  color: rgb(173, 164, 164) !important;
+  font-size: smaller;
+}/* Assuming you have a custom style sheet */
+.phone-button {
+ background-color: #ffffff !important;
+ color: darkgray !important;
+ font-size: small;
+width: 170px;
+height: 50px;
+border: none !important;
+margin-left: 50%;
+}
+.bookbutton{
+  width: 160px;
+height: 50px;
+margin-left: 50%;
 }

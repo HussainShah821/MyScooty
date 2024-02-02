@@ -1,25 +1,37 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-
+import { FormLabel } from 'react-bootstrap';
+import Col from 'react-bootstrap/Col';
+import Form from 'react-bootstrap/Form';
+import Row from 'react-bootstrap/Row';
 function Contact() {
   return (
     <>
-    <Card className='transparent-bg homecard'>
-      <Card.Body className=' p-2'>
-        <Card.Title><h1 className='text-white text-center title'>Dolce Vita</h1></Card.Title>
-        <Card.Text className='text-center pt-4 text-white'>
-        Léger et rapide à charger le Dolce Vita est notre modèle milieu de gamme qui vous 
-        sera utile pour tous types d’usage personnel comme professionnel. <br></br><br></br>Fini le stress 
-        des transports ou les pleins d’essence, avec votre Dolce Vita circuler librement et sans contrainte !
-        </Card.Text>
-        <Button variant="primary" className='text-center card-button'>Réserver un essai</Button>
-        <Card.Text className='text-white text-center'>
-        Voir les caractéristiques
-        </Card.Text>
-      </Card.Body>
-    </Card>
-<h5 className='text-white nano'>Nano 300 Watts</h5>
+   
+    
+
+  
+    <Form>
+      <Row className='w-100 ps-4 pt-2'>
+      <Form.Control className= "inputlabels" placeholder="Nom complet" />
+      </Row>
+      <Row className='mt-3 w-100 mx-auto mb-2'>
+        <Col>
+          <Form.Control className= "inputlabels" placeholder="Téléphone *" />
+        </Col>
+        <Col>
+          
+          <Form.Control className= "inputlabels" type="email" placeholder="E-mail *" />
+        </Col>
+      </Row>
+      <Row className='w-100 ps-4 mb-2 pt-2'>
+        <FormLabel className='text-white text-start'>Message</FormLabel>
+        <Form.Control as="textarea" className='textarea' rows={3} placeholder="Write your message here..."/>
+     
+      </Row>
+    </Form>
+ 
+
+
 
 </>
   );
