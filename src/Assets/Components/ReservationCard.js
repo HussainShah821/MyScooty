@@ -35,13 +35,13 @@ function Reservation() {
           </Row>
           <Row>
             <Col>
-              <Button className="custom-button">Les mardis 16h - 19h</Button>{' '}
+              <Button className="custom-button">Les mardis<br></br> 16h - 19h</Button>{' '}
             </Col>
             <Col>
-              <Button className="custom-button">Les jeudis 16h - 19h</Button>{' '}
+              <Button className="custom-button">Les jeudis <br></br> 16h - 19h</Button>{' '}
             </Col>
             <Col>
-              <Button className="custom-button">Les samedis 10h - 15h</Button>{' '}
+              <Button className="custom-button">Les samedis <br></br>10h - 15h</Button>{' '}
             </Col>
           </Row>
         

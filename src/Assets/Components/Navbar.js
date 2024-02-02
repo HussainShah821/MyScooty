@@ -6,6 +6,7 @@ import calendar from '../Images/Vector (1).png';
 
 function MyNavbar() {
   return (
+    <>
     <Navbar collapseOnSelect expand="lg" className="Nav-bg">
       <Container>
         <Navbar.Brand href="#home">
@@ -36,18 +37,20 @@ function MyNavbar() {
           </Nav>
           <Nav>
             <Nav.Link href="#Phone">
-            <Button className=' phone-button '><Telephone />   09 53 60 47 57</Button>{' '}
+            <Button className=' phone-button'><Telephone />   09 53 60 47 57</Button>{' '}
 
             </Nav.Link>
             <Nav.Link eventKey={2} href="reserve">
               <Button variant="primary" className=' bookbutton'>
-                <img src={calendar} className=" px-3" alt='calendar' />Réserver
+                <img src={calendar} className="button-txt px-3" alt='calendar' />Réserver
               </Button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
+     <h5 className='text-white nano'>Nano 300 Watts</h5>
+     </>
   );
 }
 
