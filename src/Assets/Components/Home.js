@@ -28,7 +28,7 @@ const Home = () => {
 
   return (
     <>
-      <Card className='transparent-bg '>
+      <Card className='transparent-bg'>
         <Card.Body className='homecard p-2'>
           <Card.Title><h1 className='text-white heading text-center title'>{heading}</h1></Card.Title>
           <Card.Text className='text-center homecontent pt-4 text-white'>

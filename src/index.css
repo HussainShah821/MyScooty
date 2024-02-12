@@ -7,6 +7,7 @@ body {
   background-attachment: fixed;
   margin: 0;
   padding: 0;
+  background-position-x: center;
 }
 
 .Nav-bg {
@@ -35,11 +36,27 @@ body {
 
 
 .transparent-bg {
-  width: 23%;
+  
   margin-top: -37%;
   margin-left: 4%;
   background-color: rgba(0, 0, 0, 0.4) !important;
   border: none;
+  width: 28%;
+
+}
+@media screen and (device-width: 375px) {
+  .transparent-bg {
+    width: 70% !important;
+    height: 1000px !important; /* Adjust height as needed */
+    font-size: 40px;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .title {
