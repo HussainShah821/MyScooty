@@ -5,13 +5,7 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 
 function Reservation() {
-  <InputGroup hasValidation>
-      <InputGroup.Text>@</InputGroup.Text>
-      <Form.Control type="text" required isInvalid />
-      <Form.Control.Feedback type="invalid">
-        Please choose a username.
-      </Form.Control.Feedback>
-    </InputGroup>
+  
   return (
     <>
       <Form>
