@@ -3,6 +3,7 @@ import { Navbar, Container, Nav, NavDropdown, FloatingLabel, Form, InputGroup, B
 import { Telephone } from 'react-bootstrap-icons';
 import Logo from '../Images/MyScoot Logo 1 (3) 1.png';
 import calendar from '../Images/Vector (1).png';
+import { Link } from 'react-router-dom';
 
 function MyNavbar() {
   return (
@@ -10,7 +11,7 @@ function MyNavbar() {
     <Navbar collapseOnSelect expand="lg" className="Nav-bg">
       <Container>
         <Navbar.Brand href="#home">
-          <img src={Logo} className='w-50 Logo' alt='logo' />
+          <Link to = "/"><img src={Logo} className='w-50 Logo' alt='logo' /></Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
