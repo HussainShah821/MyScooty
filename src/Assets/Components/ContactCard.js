@@ -1,15 +1,19 @@
-import React, { useState } from 'react';
-import { FormLabel } from 'react-bootstrap';
+import React from 'react';
+import { Button, FormLabel } from 'react-bootstrap';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
+import Card from 'react-bootstrap/Card';
 
 function Contact() {
   
 
   return (
     <>
-      <Form>
+     <Card className='transparent-bg w-25'>
+        <Card.Body className='homecard p-2'>
+          <Card.Title><h1 className='text-white heading px-5 pb-2 text-center title'>Nous contacter</h1></Card.Title>
+          <Form>
         <Row className='w-100 ps-4 pt-2'>
           <Form.Control 
             id="name" 
@@ -31,6 +35,15 @@ function Contact() {
           <Form.Control as="textarea" className='textarea' rows={3} placeholder="Write your message here..." />
         </Row>
       </Form>
+          
+          <Row>
+            <Button variant="primary" className='card-button w-50 mx-auto'> Envoyer
+            </Button>
+          </Row>       
+        </Card.Body>
+      </Card>
+
+     
     </>
   );
 }

@@ -137,4 +137,10 @@ margin-left: 50%;
   font-size: x-small !important;
 }
 
-
+.heading{
+  font-family: filson-pro, sans-serif; 
+  font-size: 45px;  
+  font-weight: bold;
+  
+  
+}

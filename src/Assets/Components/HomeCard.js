@@ -9,7 +9,7 @@ function HomeCard() {
     <>
       <Card className='transparent-bg w-25'>
         <Card.Body className='homecard p-2'>
-          <Card.Title><h1 className='text-white heading text-center title'>Dolce Vita</h1></Card.Title>
+          <Card.Title><h1 className='text-white heading text-center px-5 pb-2 title'>Dolce Vita</h1></Card.Title>
 
           <Card.Text className='text-center homecontent pt-4 px-4 text-white'>
             Léger et rapide à charger le Dolce Vita est notre modèle milieu de gamme qui vous
