@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Navbar, Container, Nav, NavDropdown, FloatingLabel, Form, InputGroup, Button } from 'react-bootstrap';
 import { Telephone } from 'react-bootstrap-icons';
 import Logo from '../Images/MyScoot Logo 1 (3) 1.png';
 import calendar from '../Images/Vector (1).png';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
 
 function MyNavbar() {
+  useEffect(()=>{
+    AOS.init({duration:1500})},[]);
+  
   return (
     <>
     <Navbar collapseOnSelect expand="lg" className="Nav-bg">
@@ -37,11 +41,11 @@ function MyNavbar() {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#Phone">
+            <Nav.Link href="#Phone" data-aos="fade-down">
             <Button className=' phone-button'><Telephone />   09 53 60 47 57</Button>{' '}
 
             </Nav.Link>
-            <Nav.Link eventKey={2} href="reserve">
+            <Nav.Link eventKey={2} href="reserve" data-aos="fade-up">
               <Button variant="primary" className=' bookbutton'>
                 <img src={calendar} className="button-txt px-3" alt='calendar' />Réserver
               </Button>
