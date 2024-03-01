@@ -57,8 +57,9 @@ un essai</h1></Card.Title>
           <Form.Control as="textarea" className='textarea' rows={3} placeholder="" />
         </Row>
        <Row>
-       <Button variant="primary" className='card-button w-25 mt-2 mx-auto'>  Envoyer
-            </Button>
+       <Button variant="primary" className='card-button w-50 px-auto'>
+      Envoyer
+    </Button>
        </Row>
       </Form>
       </Card.Body>

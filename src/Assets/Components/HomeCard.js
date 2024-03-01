@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
 
 function HomeCard() {
 
@@ -17,8 +19,8 @@ function HomeCard() {
             des transports ou les pleins d’essence, avec votre Dolce Vita circuler librement et sans contrainte !
           </Card.Text>
           <Row>
-            <Button variant="primary" className='card-button w-50 mx-auto'>          Réserver un essai
-            </Button>
+          <Link to = "/Contact"><Button variant="primary" className='card-button w-50 px-auto'> Réserver un essai
+            </Button></Link>
           </Row>
           <Card.Text className='text-white text-center'>
             Voir les caractéristiques

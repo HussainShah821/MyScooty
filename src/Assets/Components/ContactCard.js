@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
-
+import { Link } from 'react-router-dom';
 function Contact() {
   
 
@@ -37,8 +37,9 @@ function Contact() {
       </Form>
           
           <Row>
-            <Button variant="primary" className='card-button w-50 mx-auto'> Envoyer
-            </Button>
+          <Link to="/Reservation"><Button variant="primary" className='card-button w-50 px-auto'>
+      Envoyer
+    </Button></Link>
           </Row>       
         </Card.Body>
       </Card>
